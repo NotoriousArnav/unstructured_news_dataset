@@ -1,11 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page  of Unstructured Data</title>
+    <title>Page of Unstructured Data</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+<!-- and it's easy to individually load additional languages -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
 </head>
 <body>
-    <h1>Hello</h1>
+    <main class="px-6 py-2">
+        <h1 class="text-3xl">
+            Hello, World!
+        </h1>
+        <p>
+            This Repo contains all the Data Scraped for the Fake News Detection system named <i class="transition hover:underline">"Drishtikon"</i> by Team Parmanu Shakti.
+        </p>
+        <pre>
+            <code class="language-bash">
+                git clone this-repo-link.git
+            </code>
+        </pre>
+    </main>
+    <script>hljs.highlightAll();</script>
 </body>
 </html>
